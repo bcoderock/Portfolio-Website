@@ -56,3 +56,32 @@ a:hover{
     text-underline-offset: 1rem;
     text-decoration-color: rgb(181,181,181);
 }
+.logo{
+    font-size: 2rem;
+
+}
+
+.logo:hover{
+    cursor: default;
+
+}
+
+/* hamburger menu */
+
+#hamburger-nav{
+    display:none;
+}
+
+.hamburger-menu{
+    position: relative;
+    display: inline-block;
+}
+
+.hamburger-icon{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    width: 30px;
+    cursor: pointer;
+}
