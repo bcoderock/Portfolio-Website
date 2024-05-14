@@ -23,7 +23,7 @@
         <nav class="hamburger-nav">
             <div class="logo">Bernice Kipkeny</div>
             <div class="hamburger-menu">
-                <div class="hamburger-icon" onclick="toggle_menu()">
+                <div class="hamburger-icon" onclick="toggleMenu()">
                     <span></span>
                     <span></span>
                     <span></span>
@@ -37,6 +37,32 @@
             </div>
         </nav>
     </header>
+
+    <section class="profile">
+        <div class="section_pic-container">
+            <img src="./assets/profile-pic-1.png" alt="Bernice  Kipkeny profile picture"/>
+        </div>  
+        <div class="section_text">
+            <p class="section_text_p1">Heloo, Im</p>
+            <h1 class="title">Bernice Kipkeny</h1>
+            <p class="section_text_p2">Frontend developer and python expert</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2"onclick="window.open('assets/cv-comp.docx')">
+                Download CV here
+                </button>
+                <button class="btn btn-color-1"onclick="location.href=('./#contact')">
+                Contact Information
+                </button>
+            </div>
+            <div class="socials-container">
+                <img src="./assets/linkedin.png" alt="My linked in profile"class="icon" onclick="location.href='https://www.linkedin.com/in/bernice-kipkeny-99aaa92ba/'">
+                <img src="./assets/github.png" alt="My Github profile"class="icon" onclick="location.href='https://github.com/bcoderock'">
+            </div>
+        </div>  
+
+
+        
+    </section>
     <script src="script.js"></script>
 </body>
 </html>
