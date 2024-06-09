@@ -268,12 +268,12 @@ a:hover{
    #about{
     position:relative;
    }
-   .about-containers{
+   .about-container{
     gap:2 rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
    }
-   .about-containers,
+   .about-container,
    .about-details-container{
     display: flex;
    }
