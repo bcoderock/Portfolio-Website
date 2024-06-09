@@ -293,7 +293,7 @@ a:hover{
     flex:1;
     background:#ebc3d2;
     border-radius:2rem;
-    border:palevioletred;
+    border:rgb(22, 2, 9);
     text-align: center;
 
    }
@@ -308,10 +308,10 @@ a:hover{
    }
    /* experience s ection */
 
-   #experience{
+    #experience{
     position: relative;
    }
-   .experience-sub-title{
+    #experience-sub-title{
     color:rgb(21, 21, 161);
     font-weight:600;
     font-size:1.75 rem;
